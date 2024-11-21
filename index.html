@@ -9,10 +9,11 @@
 </head>
 <body>
         <div class="container">
+            <div><h1 style="color: aliceblue;">Points: <span id="points">0</span></h1></div>
             <div class="boxes">
                 <div class="textdiv" id="leftbox">
                     <div class="text">
-                    <h2 class="lefttext">asd</h2>
+                    <h2 class="lefttext" id="lefttext">asd</h2>
                     </div>
                     <div class="box arrow-top">
                         Meaning
@@ -20,7 +21,7 @@
                 </div>
                 <div class="textdiv" id="rightbox">
                     <div class="text">
-                        <h2 class="righttext">asd</h2>
+                        <h2 class="righttext" id="righttext">asd</h2>
                     </div>
                     
                     <div class="box arrow-top">
@@ -31,8 +32,8 @@
             </div>
 
             <div class="buttons">
-                <button><p class="left">NO</p> <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="m4.431 12.822l13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645"/></svg> </button>
-                <button><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="M5.536 21.886a1 1 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886"/></svg> <p class="right">YES</p>  </button>
+                <button onclick="handleClick('false')"><p class="left">NO</p> <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="m4.431 12.822l13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645"/></svg> </button>
+                <button onclick="handleClick('true')"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="M5.536 21.886a1 1 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886"/></svg> <p class="right">YES</p>  </button>
             </div>
 
             </div>
